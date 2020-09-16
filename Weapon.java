@@ -43,8 +43,9 @@ public class Weapon
 	public Weapon(int weaponT,int qualityValue,int starVal)
 	{
 		customizeWeaponType(weaponT);
-		customizeWeaponStar(qualityValue);
-		customizeWeaponQuality(starVal);
+		customizeWeaponQuality(qualityValue);
+		customizeWeaponStar(starval);
+		
 	}
 	private void setWeaponQuality(double probs)
 	{
