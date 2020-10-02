@@ -1,4 +1,7 @@
 import java.util.Random;
+/*
+	Part 1: Weapon system prototype
+*/
 public class Weapon
 {
 	//Weapon qualities
@@ -158,6 +161,9 @@ public class Weapon
 				break;
 		}
 	}
+	/*
+	customized weapon helper methods
+	*/
 	private void customizeWeaponStar(int s)
 	{
 		this.starValue = s;
@@ -173,6 +179,9 @@ public class Weapon
 		this.weaponType = t;
 		weaponSetter();
 	}
+	/*
+	Helper methods
+	*/
 	public String getWeaponName()
 	{
 		return weaponName;
